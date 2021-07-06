@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 35px;
+   
+}
+h2{
+   font-size: 30px; 
+}
+.blue-color{
+   color: blue; 
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 4%;
+  
+}
+.half-width img{
+    width: 100%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 5px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/four.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 20px;
+    border-radius: 15px;
+   box-shadow: 10px 10px 40px rgb(165, 156, 156); 
+   /* border-left: 10px solid; */
+}
+
+.card {
+    width: auto;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px 90px 60px;
+    box-shadow: 10px 10px 40px rgb(165, 156, 156); 
+
+  }
+
+  .card div:nth-of-type(1) {flex-grow: 1;}
+  .card div:nth-of-type(2) {flex-grow: 1;}
+  .card div:nth-of-type(3) {flex-grow: 1;}
+
+
+.orange-color{
+    color: orange;
+}
+.white-color{
+    color: white;
+}
+.gray-color{
+    color: gray;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px 70px 40px;
+}
